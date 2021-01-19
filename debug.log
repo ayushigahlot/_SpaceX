@@ -1,0 +1,22 @@
+[0118/180746.594:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0118/181124.907:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-53151088\Crashpad\attachments\7cb2a367-26ad-42ca-93ea-1500637dcb95: The system cannot find the path specified. (0x3)
+[0118/181732.751:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-35240004\Crashpad\attachments\9270fd14-7b2a-407b-81b1-1343a16f7d3d: The system cannot find the path specified. (0x3)
+[0118/182854.762:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0118/193334.466:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-31226289\Crashpad\attachments\f9cdcac2-299a-437b-8a06-a6f38ae7cf04: The system cannot find the path specified. (0x3)
+[0118/194541.217:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0119/102920.777:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\6bc51d43-491b-45fc-bd45-cda9b600d118.dmp: The system cannot find the path specified. (0x3)
+[0119/102920.777:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/102920.829:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\4795249a-bdaf-4c0a-b363-021f5836ba96.dmp: The system cannot find the path specified. (0x3)
+[0119/102920.829:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/102920.872:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\7fa34e2d-890d-450b-8c4f-990c926f15b0.dmp: The system cannot find the path specified. (0x3)
+[0119/102920.872:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/102920.942:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\f5d1d831-7c9d-4f69-bf34-a1651c8e03e0.dmp: The system cannot find the path specified. (0x3)
+[0119/102920.942:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/102921.003:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\d9baff55-c33f-44b5-aada-58319384f73f.dmp: The system cannot find the path specified. (0x3)
+[0119/102921.003:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/102921.037:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\b6f8f11f-befe-4c01-abf2-3e2ad9053c94.dmp: The system cannot find the path specified. (0x3)
+[0119/102921.037:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/102921.112:ERROR:file_io_win.cc(171)] CreateFile C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-18228389\Crashpad\reports\64a1b1cf-c9f9-43f5-b634-5a6d757c55f2.dmp: The system cannot find the path specified. (0x3)
+[0119/102921.112:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[0119/204416.352:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0119/220814.218:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\AYUSHI~1.GAH\AppData\Local\Temp\karma-64896865\Crashpad\attachments\d4a875d5-6211-481a-90da-2ee5a108ebb9: The system cannot find the path specified. (0x3)

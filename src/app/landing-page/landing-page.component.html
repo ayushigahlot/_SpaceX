@@ -1,0 +1,65 @@
+<div class="p10 bg-color ">
+    <header class="m10"><p class="heading">SpaceX Launch Programs</p></header>
+    <div class="container-body container-center">
+        <div class="card mr10 ">
+            <label class="m0 font-weight">Filters</label>
+            <div>
+                <div class="flex-box flex-center font-label">Launch Year</div>
+                <hr class="hr-bar">
+                <div class="launch-container">
+                    <div *ngFor="let year of launchYears; let i = index">
+                        <button class=" btn-years" (click)="debounced(year);this.selectedYear = year;" [ngClass]="{ 'selected': year==selectedYear  }" > {{year}}</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt20">
+                <div class="flex-box flex-center font-label ">Successful Launch</div>
+                <hr class="hr-bar">
+                <div class="launch-container">
+                    <button (click)="debounced(true);this.islaunchSuccessful = true;this.islaunchTrue='yes';" class="btn-launch " [ngClass]="{ 'selected': islaunchTrue == 'yes'  }" >True</button>
+                    <button (click)="debounced(false);this.islaunchSuccessful = false;this.islaunchTrue='no';" class="btn-launch" [ngClass]="{ 'selected': islaunchTrue == 'no'  }">False</button>
+                </div>
+            </div>
+            <div class="mt20">
+                <div class="flex-box flex-center font-label ">Successful Landing</div>
+                <hr class="hr-bar">
+                <div class="launch-container">
+                    <button (click)="debounced(true);this.islandedSuccessful = true;this.islandedTrue='yes';" class="btn-landed"  [ngClass]="{ 'selected': islandedTrue == 'yes'  }" >True</button>
+                    <button (click)="debounced(false);this.islandedSuccessful = false;this.islandedTrue='no';" class="btn-landed"  [ngClass]="{ 'selected': islandedTrue == 'no'  }" >False</button>
+                </div>
+            </div>
+        </div>
+        <div class="missions-container">
+            <div class="card-items" *ngFor="let data of spacexData">
+                <img height="150px" loading="lazy" width="200px" src="{{data.links.mission_patch_small}}"
+                    class="center-img bg-color"/>
+                <p class="font-weight mission-name mt12">{{data.mission_name}} #{{data.flight_number}}</p>
+                <div class="row m0 block-size">
+                    <p class="font-weight ">Mission Ids:</p>
+                </div>
+                <div *ngIf="data.mission_id.length !== 0" class="row m0 block-size mission-name">
+                    <ul> 
+                        <li *ngFor="let id of data.mission_id">
+                            {{id}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="row m0 block-size">
+                    <p class="font-weight ">Launch Year:</p>
+                    <p class="mission-name ml10"> {{data.launch_year}}</p>
+                </div>
+                <div class="row m0 block-size">
+                    <p class="font-weight  ">Successful Launch:</p>
+                    <p class="mission-name ml10"> {{data.launch_success}} </p>
+                </div>
+                <div class="row m0 block-size">
+                    <p class="font-weight  ">Successful Landing:</p>
+                    <p class="mission-name ml10"> {{data.rocket.first_stage.cores[0].land_success}} </p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <label class="font-weight center footer-label">Developed by Ayushi Gahlot</label>
+    </footer>
+</div>
